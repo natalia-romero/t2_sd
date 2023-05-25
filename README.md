@@ -76,6 +76,7 @@ cd t1_sd
     ---
     Para correr el programa y crear el flujo producer-consumer, debemos ubicarnos en una nueva terminal (dentro de la carpeta kafka de este repositorio) y ejecutar el comando
     ```
+    npm install
     node index.js
     ```
     Y listo, ahora se enviarán los mensajes :)
