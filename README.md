@@ -74,7 +74,7 @@ cd t1_sd
     kafka-console-consumer.sh --topic <topic_name> --from-beginning --bootstrap-server localhost:9092 
     ```
     ---
-    Para correr el programa debemos ubicarnos en una nueva terminal (dentro de la carpeta kafka de este repositorio) y ejecutar el comando
+    Para correr el programa y crear el flujo producer-consumer, debemos ubicarnos en una nueva terminal (dentro de la carpeta kafka de este repositorio) y ejecutar el comando
     ```
     node index.js
     ```
